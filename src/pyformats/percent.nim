@@ -1,3 +1,4 @@
+## Pure Implemenation of [Python's printf style formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) for Nim
 
 import ./private/percent_format
 
