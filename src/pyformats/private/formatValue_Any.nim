@@ -1,5 +1,5 @@
 ## formatValue for bool, char, cstring and typeinfo.Any
-
+when defined(nimPreviewSlimSystem): import std/formatfloat
 import std/strformat
 import pkg/nimpatch/typeinfo
 import pkg/nimpatch/anydollar

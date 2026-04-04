@@ -1,5 +1,6 @@
 ## `__mod__` implementation for `str`, `bytes` or `bytearray`.
 ## 
+when defined(nimPreviewSlimSystem): import std/assertions
 from std/strutils import toLowerAscii, isDigit # except `%`  # avoid overload
 import std/tables
 import std/strformat
